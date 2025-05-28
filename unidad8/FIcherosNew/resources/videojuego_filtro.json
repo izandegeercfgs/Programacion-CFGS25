@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Inazuma Eleven",
+    "plataforma": "Nintendo Switch",
+    "precio": 19.99,
+    "disponible": true,
+    "listaGeneros": [
+      "Deportes",
+      "Simulación"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "FC25",
+    "plataforma": "PS5",
+    "precio": 79.99,
+    "disponible": true,
+    "listaGeneros": [
+      "Deportes"
+    ]
+  },
+  {
+    "nombre": "Los sims",
+    "plataforma": "Origin",
+    "precio": 129.99,
+    "disponible": false,
+    "listaGeneros": [
+      "Simulación"
+    ]
+  },
+  {
+    "nombre": "Inazuma Eleven",
+    "plataforma": "Nintendo Switch",
+    "precio": 19.99,
+    "disponible": true,
+    "listaGeneros": [
+      "Deportes",
+      "Simulación"
+    ]
+  }
+]
