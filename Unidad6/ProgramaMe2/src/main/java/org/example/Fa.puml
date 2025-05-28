@@ -1,0 +1,44 @@
+@startuml
+
+interface Habitos {
+    +void ejercicio()
+    +void alimentacion()
+    +void bebida()
+}
+
+abstract class Persona implements Habitos {
+    protected int edad
+    private float peso
+    public String nombre
+    public static final int ESTIMACION_VIDA = 85
+
+    +void despertarse()
+    -void dormirse()
+}
+
+class PersonaSaludable extends Persona {
+    private int resistencia = 100
+    +boolean madrugar(Hora hora)
+}
+
+class PersonaNoSaludable extends Persona {
+    private int colesterol = 100
+    +void llegarTarde(Hora horita)
+}
+
+class Hora {
+    private int hora
+    private int minuto
+
+    +Hora(int hora, int minuto)
+    +int getHora()
+    +int getMinuto()
+}
+
+PersonaSaludable --|> Persona
+PersonaNoSaludable --|> Persona
+
+PersonaSaludable ..> Hora : usa
+PersonaNoSaludable ..> Hora : usa
+
+@enduml
