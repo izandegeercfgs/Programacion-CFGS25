@@ -1,0 +1,32 @@
+@startuml
+package "org.unidad5.Teoria" {
+
+    class Persona {
+        - nombre : String
+        - dni : String
+        - edad : int
+        - profesion : String
+        - ciudad : String
+
+        + Persona(nombre : String, dni : String, edad : int, profesion : String, ciudad : String)
+        + Persona()
+        + getNombre() : String
+        + getDni() : String
+        + getEdad() : int
+        + getProfesion() : String
+        + getCiudad() : String
+        + setNombre(nombre : String) : void
+        + setDni(dni : String) : void
+        + setEdad(edad : int) : void
+        + setProfesion(profesion : String) : void
+        + setCiudad(ciudad : String) : void
+        + mostrarInfo() : void
+    }
+
+    class Main {
+        + main(args : String[]) : void
+    }
+
+    Main --> Persona : crea/usa
+}
+@enduml
