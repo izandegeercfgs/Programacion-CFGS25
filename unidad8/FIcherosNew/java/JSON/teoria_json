@@ -1,0 +1,34 @@
+{
+   "estudiantes":[
+      {
+         "nombre":"Juan",
+         "curso":"1DAM"
+      },
+      {
+         "nombre":"María",
+         "curso":"1DAW"
+      }
+   ],
+   "profesores":[
+      {
+         "nombre":"Patricia",
+         "modulos":[
+            "Programación",
+            "Tutoría"
+         ]
+      },
+      {
+         "nombre":"Paco",
+         "modulos":[
+            "Sistemas",
+            "Hardware"
+         ]
+      }
+   ]
+}
+
+RESUMEN:
+
+Dentro del JSON creado tenemos dos objetos: estudiantes y profesores. Ambos guardan una lista de objetos.
+Por cada estudiante, guardamos su nombre y el curso en el que está.
+Por cada profesor, guardamos su nombre y una lista de los módulos que imparte.
