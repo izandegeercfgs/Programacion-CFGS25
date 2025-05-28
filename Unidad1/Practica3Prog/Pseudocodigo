@@ -1,0 +1,18 @@
+Inicio
+    Crear input para capturar datos del usuario (entradaEscaner)
+    
+    Mostrar mensaje "Introduce tu nombre: "
+    Leer y guardar el nombre del usuario (nombre)
+
+    Mostrar mensaje "Hola [nombre]. Introduce tu edad: "
+    Leer y guardar la edad del usuario (edad)
+
+    Si edad es mayor o igual a 18 entonces
+        Mostrar mensaje "Enhorabuena [nombre]. Puedes votar."
+    Sino
+        Mostrar mensaje "Lo siento [nombre]. No puedes votar."
+        Calcular los años restantes para ser mayor de edad (legal = 18 - edad)
+        Mostrar mensaje "Aún te quedan [legal] años para ser mayor de edad."
+    Fin si
+
+Fin

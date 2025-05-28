@@ -1,0 +1,35 @@
+Inicio
+	Crear Input para capturar datos del usuario (EntradaEscaner)
+
+	Mostrar mensaje ("Introduce el primer operando")
+	Leer y guardar el primer operando (num_1)
+
+	Mostrar mensaje ("Introduce el segundo operando")
+	Leer y guardar el segundo operando (num_2)
+
+	Mostrar mensaje ("Introduce la operación que deseas realizar: Suma, resta, multiplicación, división")
+	Leer y guardar la operación que se desea realizar (operation)
+
+	Si operation = suma
+		Hacer operación (num_1 + num_2)
+		Leer y guardar el resultado (res)
+		Mostrar ("El resultado es: "res")
+	Si no
+		Si operation = resta
+			Hacer operación (num_1 - num_2)
+			Leer y guardar el resultado (res)
+			Mostrar ("El resultado es: "res")
+		Si no
+			Si operation = multiplicación
+				Hacer operación (num_1 * num_2)
+				Leer y guardar el resultado (res)
+				Mostrar ("El resultado es: "res")
+			Si no
+				Si operation = división
+					Hacer operación (num_1 / num_2)
+					Leer y guardar el resultado (res)
+					Mostrar ("El resultado es: "res")
+			Fin Si
+		Fin Si
+	Fin Si
+Fin

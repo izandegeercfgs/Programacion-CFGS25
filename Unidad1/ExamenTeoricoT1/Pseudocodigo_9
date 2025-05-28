@@ -1,0 +1,19 @@
+Inicio
+	Crear Input para capturar datos del usuario (EntradaEscaner)
+
+	Mostrar mensaje ("Introduzca dos valores distintos")
+	Leer y guardar el primer valor (num_1);
+	Leer y guardar el segundo valor (num_2);
+
+	Si (A=B)
+		Mostrar mensaje ("Introduzca dos valores distintos");
+		Leer y guardar el primer valor (num_1);
+		Leer y guardar el segundo valor (num_2);
+	Si no
+		Si (A>B)
+			Mostrar mensaje ("A es el mayor")
+		Si no
+			Mostrar mensaje ("B es el mayor")
+		Fin Si
+	Fin Si
+Fin
