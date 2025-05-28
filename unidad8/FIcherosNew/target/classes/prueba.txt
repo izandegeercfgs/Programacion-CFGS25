@@ -1,0 +1,5 @@
+Paco,4
+Juan,3
+Cesar,0
+David,2
+Izan,5
